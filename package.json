@@ -1,0 +1,39 @@
+{
+  "name": "object-arrarify-deep",
+  "version": "1.0.0",
+  "description": "A npm module which converts an ordinary object into an object with various tools which natively are found within an array, such as map, filter, find, forEach, and more, all behave similar to the native array version however, instead of index, it provides key, AND index(third param). works recursively infinite depth, automatically avoids circular referebces. this variant works RECURSIVELY and not shallowly.",
+  "main": "js/index.js",
+  "typings": "js/index",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "rimraf -R js && tsc",
+    "prepare": "npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vasilevich/object-arrarify.git"
+  },
+  "devDependencies": {
+    "rimraf": "^2.6.2",
+    "typescript": "^2.9.1"
+  },
+  "keywords": [
+    "typescript",
+    "object",
+    "arrarify",
+    "map",
+    "filter",
+    "find",
+    "foreach"
+  ],
+  "author": "yosef@doar.systems",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/vasilevich/object-arrarify/issues"
+  },
+  "homepage": "https://github.com/vasilevich/object-arrarify#readme",
+  "dependencies": {
+    "modify-object-recursively": "^1.0.0",
+    "object-arrarify": "^1.0.1"
+  }
+}
