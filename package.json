@@ -1,6 +1,6 @@
 {
   "name": "object-arrarify-deep",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A npm module which converts an ordinary object into an object with various tools which natively are found within an array, such as map, filter, find, forEach, and more, all behave similar to the native array version however, instead of index, it provides key, AND index(third param). works recursively infinite depth, automatically avoids circular referebces. this variant works RECURSIVELY and not shallowly.",
   "main": "js/index.js",
   "typings": "js/index",

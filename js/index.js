@@ -16,6 +16,7 @@ var possibleObjectMethods = [
     "find",
     "findKey",
     "map",
+    "mapKeys",
     "forEach",
     toNormalObject
 ];
